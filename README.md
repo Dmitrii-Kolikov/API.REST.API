@@ -63,12 +63,12 @@
 ### Rest. Endpoints
 | URL | Метод | Вход | Выход |Ошибки |
 |----------------|---------|---------|---------|---------|
-| /ships | GET | (\*) | List\<\Ship> |  - |
+| /ships | GET | (\*) | List\<Ship> |  - |
 | /ships  | POST | Ship | id | Некорректная информация о корабле |
 | /ships/{id} | DELETE | id | - | Корабль не найден |
 | /ships/{id}/status  | GET | id | Корабль не найден |
 | /ships/{id}/status  | PUT | id, status, port_id(\*) | String |Корабль не найден, Порт не найден, Некорректный статус, Порт не может принять корабль |
-| /ports | GET | - | List<Port> | - |
+| /ports | GET | - | List\<Port> | - |
 | /ports/{id}/capacity | GET | id | ? |  Порт не найден |
 
 
