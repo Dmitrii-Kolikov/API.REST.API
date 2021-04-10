@@ -63,7 +63,7 @@
 ### Rest. Endpoints
 | URL | Метод | Вход | Выход |Ошибки |
 |----------------|---------|---------|---------|---------|
-| /ships | GET | (\*) | List<Ship> |  - |
+| /ships | GET | (\*) | List\<\Ship> |  - |
 | /ships  | POST | Ship | id | Некорректная информация о корабле |
 | /ships/{id} | DELETE | id | - | Корабль не найден |
 | /ships/{id}/status  | GET | id | Корабль не найден |
