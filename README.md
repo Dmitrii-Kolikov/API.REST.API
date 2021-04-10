@@ -1,4 +1,4 @@
-# API.REST.API
+# API.REST.SWAGGER
 
 Цель проекта
 ###  Постановки задачи
